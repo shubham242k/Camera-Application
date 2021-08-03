@@ -4,9 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
+    <div class="video-container">
+        <video loop autoplay></video>
+    </div>
+
+    <div class="filter-container">
+        <div class="filter" style="background-color: rgba(245, 225, 198, 0.795);"></div>
+        <div class="filter" style="background-color: rgba(241, 211, 255, 0.795);"></div>
+        <div class="filter" style="background-color: rgba(218, 251, 253, 0.795);"></div>
+        <div class="filter" style="background-color: rgba(252, 186, 211, 0.795);"></div>
+    </div>
+
+    <div class="zoom">
+        <div class="zoom-in">+</div>
+        <div class="zoom-out">-</div>
+      
+    </div>
     
+    <button id="capture-button"><span></span></button>
+    <button id="record-button"><span></span></button>
+    <button id="gallery-button"><span>GALLERY</span></button>
+
+    <script src="databaseScript.js"></script>
+    <script src="firstScript.js"></script>
 </body>
 </html>
